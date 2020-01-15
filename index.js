@@ -5,13 +5,13 @@ const server = express();
 //Query params = ?teste=1
 //Router params = /users/1
 //Request body = { }
-
-server.get("/users/:id", (req, res) => {
+const users = ["Diego", "Claudio", "Vitor"];
+server.get("/users/:index", (req, res) => {
   //const nome = req.query.nome;
-  const { id } = req.params;
+  const { index } = req.params;
 
   //return res.json({ message: `Hello ${nome}` });
-  return res.json({ message: `Buscando o Usuario ${id}` });
+  return res.json(users[index]);
 });
 
 server.listen(3000);
