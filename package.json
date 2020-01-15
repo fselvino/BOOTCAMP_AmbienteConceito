@@ -1,0 +1,8 @@
+{
+  "name": "BOOTCAMP_AmbienteConceito",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fselvino/BOOTCAMP_AmbienteConceito.git",
+  "author": "fernandoselvino@gmail.com <fernandoselvino@gmail.com>",
+  "license": "MIT"
+}
